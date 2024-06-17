@@ -210,9 +210,6 @@ max-width: 1440px;
 
 .features {
     padding: 120px 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 .visually-hidden {
@@ -245,6 +242,9 @@ max-width: 1440px;
     background-color: #F4F4FD;
     padding: 24px 100px;
     margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .features-list-title {
@@ -294,6 +294,9 @@ max-width: 1440px;
 .team-item {
     background-color: #FFFFFF;
     border-radius: 0 0 4px 4px;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+        0px 1px 1px rgba(46, 47, 66, 0.16),
+        0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .team-img {
@@ -330,22 +333,32 @@ max-width: 1440px;
         margin-left: auto;
             margin-right: auto;
             width: calc((100%-24*3)/4);
+            transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .links-list {
     display: flex;
     gap: 24px;
     align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
     }
 
 .link {background-image: url(../images/Ellipse.jpg);
-    width: 40px;
-        height: 40px;
+    width: 100%;
+        height: 100%;
         background-color: #4D5AE5;
-        border-radius: 50%;      
+        border-radius: 50%;  
+        display: flex;
+        align-items: center;
+        justify-content: center;
 }
 
 .link:hover {
     background-color: #404BBF;
+}
+.link:focus {
+    background-color: #404bbf;
 }
 
 .icon-instagram {
@@ -356,6 +369,7 @@ max-width: 1440px;
         gap: 0;
         opacity: 0;
     color: #FFFFFF;
+    fill: #f4f4fd;
    }
 
 /*------------------------------- */
