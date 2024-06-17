@@ -359,7 +359,7 @@ max-width: 1440px;
     background-color: #404bbf;
 }
 
-.icon-instagram {
+.team-icons {
         width: 16px;
         height: 16px;
         top: 12px;
@@ -369,36 +369,8 @@ max-width: 1440px;
         fill: #f4f4fd;
    }
 
-   .icon-twitter {
-        width: 16px;
-        height: 16px;
-        top: 12px;
-        left: 12px;
-        gap: 0;
-        opacity: 0;
-        fill: #f4f4fd;
-   }
+   
 
-   .icon-facebook {
-        width: 16px;
-        height: 16px;
-        top: 12px;
-        left: 12px;
-        gap: 0;
-        opacity: 0;
-        fill: #f4f4fd;
-   }
-   
-   .icon-linkedin {
-        width: 16px;
-        height: 16px;
-        top: 12px;
-        left: 12px;
-        gap: 0;
-        opacity: 0;
-        fill: #f4f4fd;
-   }
-   
 /*------------------------------- */
 
 /*----------- portfolio --------------- */
