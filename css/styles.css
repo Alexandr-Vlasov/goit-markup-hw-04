@@ -326,17 +326,13 @@ max-width: 1440px;
         padding-bottom: 8px;
 }
 
-.item{
-    /*background-image: url(../images/Ellipse.jpg);
-    background-position: center;
-        block-size: cover;*/
+.item {
         width: 40px;
         height: 40px;
         margin-left: auto;
-            margin-right: auto;
-            width: calc((100%-24*3)/4);
-            
+        margin-right: auto;
 }
+
 .links-list {
     display: flex;
     gap: 24px;
@@ -370,8 +366,7 @@ max-width: 1440px;
         left: 12px;
         gap: 0;
         opacity: 0;
-    color: #FFFFFF;
-    fill: #f4f4fd;
+        fill: #f4f4fd;
    }
 
    
