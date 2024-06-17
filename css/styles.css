@@ -578,4 +578,8 @@ color: #f4f4fd;
 .footer-link:focus {
     background-color: #31d0aa;
 }
+
+.footer-icons {
+    fill: #f4f4fd
+}
 /*------------------------------- */
