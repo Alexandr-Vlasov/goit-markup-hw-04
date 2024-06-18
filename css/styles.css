@@ -159,6 +159,7 @@ background-repeat: no-repeat;
 background-position: center;
 background-size: cover;
 max-width: 1440px;
+margin: 0 auto;
 }
 
 .hero-container {
@@ -231,7 +232,7 @@ max-width: 1440px;
 }
 
 .features-list-item {
-    width: calc((100%-72px)/4);
+    width: calc((100% - 72px) / 4);
     }
     
 .features-icon {
@@ -240,7 +241,6 @@ max-width: 1440px;
     border-radius: 4px;
     border: 1px solid #8E8F99;
     background-color: #F4F4FD;
-    padding: 24px 100px;
     margin-bottom: 8px;
     display: flex;
     align-items: center;
@@ -254,6 +254,7 @@ max-width: 1440px;
     letter-spacing: 0.02em;
     text-align: left;
     color: #2E2F42;
+    margin-bottom: 8px;
 }
 
 .features-list-text {
@@ -341,15 +342,15 @@ max-width: 1440px;
     padding: 0 16px;
 }
 
-.link {background-image: url(../images/Ellipse.jpg);
+.link {
     width: 100%;
-        height: 100%;
-        background-color: #4D5AE5;
-        border-radius: 50%;  
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    height: 100%;
+    background-color: #4D5AE5;
+    border-radius: 50%;  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .link:hover {
@@ -408,16 +409,17 @@ max-width: 1440px;
 }
 
 .portfolio-item {
-    width: calc((100%-2*24px)/3);
+    width: calc((100% - 2* 24px) /3);
     position: relative;
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
-        0px 1px 1px rgba(46, 47, 66, 0.16),
-        0px 2px 1px rgba(46, 47, 66, 0.08);
+   
 }
 
 .portfolio-item:hover .portfolio-cover-text{
      transform: translateY(0);
+     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+            0px 1px 1px rgba(46, 47, 66, 0.16),
+            0px 2px 1px rgba(46, 47, 66, 0.08);
     }
 
 .portfolio-text-container {
@@ -480,7 +482,6 @@ max-width: 1440px;
 .footer {
     background-color: #2E2F42;
     padding: 100px 0;
-    display: flex;
 }
 
 .footer-content {
@@ -544,7 +545,6 @@ color: #f4f4fd;
 }
 
 .footer-link {  
-    background-image: url(../images/Ellipse.jpg); width: 40px; height: 40px;
     background-color: #4D5AE5;
     border-radius: 50%;
     width: 100%;
