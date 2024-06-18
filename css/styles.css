@@ -361,10 +361,10 @@ max-width: 1440px;
 
 .team-icons {
     gap: 24px;
-   /*fill: #f4f4fd;*/
+   fill: #f4f4fd;
 }
 
-.icon-instagram {
+/*.icon-instagram {
     fill: #f4f4fd;
 }
 
@@ -378,7 +378,7 @@ max-width: 1440px;
    
 .icon-linkedin {
     fill: #f4f4fd;
-}
+}*/
 
 /*------------------------------- */
 
