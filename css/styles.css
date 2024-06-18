@@ -338,8 +338,8 @@ max-width: 1440px;
     gap: 24px;
     align-items: center;
     justify-content: center;
-   
-    }
+    padding: 0 16px;
+}
 
 .link {background-image: url(../images/Ellipse.jpg);
     width: 100%;
@@ -359,25 +359,27 @@ max-width: 1440px;
     background-color: #404bbf;
 }
 
+.footer-icons {
+    gap: 24px;
+   /*fill: #f4f4fd;*/
+}
+
 .icon-instagram {
-        
-        fill: #f4f4fd;
-   }
+    fill: #f4f4fd;
+}
 
-   .icon-twitter {
-        
-        fill: #f4f4fd;
-   }
+.icon-twitter {
+    fill: #f4f4fd;
+}
 
-   .icon-facebook {
-       
-        fill: #f4f4fd;
+.icon-facebook {
+    fill: #f4f4fd;
    }
    
-   .icon-linkedin {
-     
-        fill: #f4f4fd;
-   }
+.icon-linkedin {
+    fill: #f4f4fd;
+}
+
 /*------------------------------- */
 
 /*----------- portfolio --------------- */
